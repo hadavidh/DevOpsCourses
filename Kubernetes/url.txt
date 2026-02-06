@@ -1,0 +1,13 @@
+--------------------------- git projects ----------------------------------------
+
+https://github.com/VZGLY/hw-project
+https://github.com/VZGLY/express-k8s
+https://github.com/VZGLY/vite-k8s
+
+--- projet final ---
+https://github.com/VZGLY/completek8s
+https://github.com/VZGLY/vite-k8s
+https://github.com/VZGLY/express-k8s
+
+-------------------- fuite de données -----------------------------------
+https://haveibeenpwned.com/

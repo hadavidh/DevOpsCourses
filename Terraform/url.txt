@@ -1,0 +1,7 @@
+------------- git project entier ---------------------
+
+https://github.com/phil-form/bf_terraform_2026
+
+------------- calculer le cout architecture ----------
+
+https://www.infracost.io/docs/

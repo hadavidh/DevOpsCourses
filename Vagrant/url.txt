@@ -1,0 +1,7 @@
+-------------install vagrant -------------
+https://developer.hashicorp.com/vagrant/install
+
+
+------------- git du projet avec exemple et Template valide --------
+
+https://github.com/phil-form/vagrant

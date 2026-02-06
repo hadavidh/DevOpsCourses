@@ -1,0 +1,23 @@
+------------------- aide mémoire ------------------------------------------------------------------------
+
+https://cheatography.com/davechild/cheat-sheets/linux-command-line/
+https://vim.rtorr.com/
+
+------------------- git repository des commandes les plus utilisés + exercices tp -----------------------
+
+git clone https://github.com/phil-form/ShellScripts
+
+
+------------------- systemed services doc ---------------------------------------------------------------
+
+https://www.freedesktop.org/software/systemd/man/latest/systemd.service.html?__goaway_challenge=meta-refresh&__goaway_id=4b2b122d0a4317fed456c22854e68641
+
+
+------------------- putty -------------------------------------------------------------------------------
+
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+https://services.wayne.edu/TDClient/277/Portal/KB/ArticleDet?ID=20243
+
+------------------- liste de ports reservés -------------------------------------------------------------
+
+https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers

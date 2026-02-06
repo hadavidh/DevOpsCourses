@@ -1,0 +1,41 @@
+Labo Exploratoire LINUX / Réseau
+
+Matériel: 
+
+=> Oracle VirtualBox   ???  => justifiez le choix de la version
+=> Ubuntu Server 24.X  ???  => justifiez le choix de la version
+
+
+VM's
+
+1°  Name: Server        Material:   2048 MB Ram  , 2 Core, 32Mb VRam
+2°  Name: Client1       Material:   2048 MB Ram  , 2 Core, 32Mb VRam
+3°  Name: Client2       Material:   2048 MB Ram  , 2 Core, 32Mb VRam
+4°  Name: Client3       Material:   2048 MB Ram  , 2 Core, 32Mb VRam
+
+
+Spec VM1:  2 interfaces Réseau:   interface 1: connexion par pont  (permet de communiquer avec internet)   (DHCP4)
+				  interface 2: reseau privé (Adressage Static)
+
+Spec VM2,3,4: 1 interface Réseau: reseau privé (Adressage Static)
+
+
+VM1 se charge d'ouvrir l'accès à internet pour toutes les autres VM,  VM1 sera la passerelle d'accès à internet
+VM1 doit être configuré en conséquence: port forwarding, NAT, DNS, reroutage de port
+
+VM2,3,4 doivent pouvoir communiquer entre elles et accéder à internet
+
+
+Etape 2:
+
+VM2 est indépendante sur le réseau et peut accéder à internet
+VM3 et 4 peuvent communiquer entre elles et accéder à internet
+
+
+TIP of the Day:  sudo apt install net-tools   => sans ça; pas de ifconfig!
+TIP of the Day2: editeur natif à Ubuntu: nano 
+TIP of the Day3: sysctl - resolvectl - systemd-resolved vont vous servir
+TIP of the Day4: sudo netplan Apply, vous sauvera la vie à chaque modification de votre config NETPLAN
+
+Advice: Keep cool!
+Advice2: Vous plantez pas dans la configuration de vos machines client
